@@ -16,6 +16,7 @@ namespace git_test
         static void Main(string[] args)
         {
             Foo();
+            Console.Out.WriteLine("Zmiana na branchu");
         }
     }
 }
