@@ -8,8 +8,14 @@ namespace git_test
 {
     class Program
     {
+        private static void Foo()
+        {
+            Console.Out.WriteLine("Wywolanie funkcji");
+        }
+
         static void Main(string[] args)
         {
+            Foo();
         }
     }
 }
